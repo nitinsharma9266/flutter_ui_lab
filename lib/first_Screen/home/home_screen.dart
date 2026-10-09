@@ -317,75 +317,71 @@ class HomeScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
                       ),
-                      child: Row(
-                        children: [
-                          Checkbox(
-                            value: false,
-                            onChanged: (value) {},
-                            activeColor: const Color(
-                              0xFF20B879,
-                            ), // tick hone par background
-                            checkColor: Colors.white, // white ✓
-                            side: const BorderSide(
-                              color: Color(0xFF9CA3AF), // unchecked border
-                              width: 2,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                          ),
-                          const SizedBox(width: 10),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Complete Flutter UI",
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black,
-                                ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            Checkbox(
+                              value: false,
+                              onChanged: (value) {},
+                              activeColor: const Color(
+                                0xFF20B879,
+                              ), // tick hone par background
+                              checkColor: Colors.white, // white ✓
+                              side: const BorderSide(
+                                color: Color(0xFF9CA3AF), // unchecked border
+                                width: 2,
                               ),
-                              const SizedBox(height: 3,),
-                              Text(
-                                "Build home screen layout",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w500,
-                                  color: Colors.grey,
-                                ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(6),
                               ),
-                              Row(
-                                children: [
-                                  Icon(
-                                    Icons.access_time,
-                                    size: 14,
+                            ),
+                            const SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Complete Flutter UI",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  "Build home screen layout",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.grey,
                                   ),
-                                  const SizedBox(width: 5),
-                                  Text(
-                                    "10 :00 AM - 12 :00 PM",
-                                    style: TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w500,
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.access_time,
+                                      size: 14,
                                       color: Colors.grey,
                                     ),
-                                  ),
-                                ],
-                              ),
-
-                            ],
-                          ),
-                          Spacer(
-                            flex: 1,
-                          ),
-                          Icon(
-                            Icons.laptop,
-                            color: Colors.blue,
-                          ),
-                        ],
+                                    const SizedBox(width: 5),
+                                    Text(
+                                      "10 :00 AM - 12 :00 PM",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                            Spacer(flex: 1),
+                            Icon(Icons.laptop, color: Colors.blue),
+                          ],
+                        ),
                       ),
-
                     ),
                   ),
                 ],
@@ -400,75 +396,71 @@ class HomeScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
                       ),
-                      child: Row(
-                        children: [
-                          Checkbox(
-                            value: false,
-                            onChanged: (value) {},
-                            activeColor: const Color(
-                              0xFF20B879,
-                            ), // tick hone par background
-                            checkColor: Colors.white, // white ✓
-                            side: const BorderSide(
-                              color: Color(0xFF9CA3AF), // unchecked border
-                              width: 2,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                          ),
-                          const SizedBox(width: 10),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Morning Experiance",
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black,
-                                ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            Checkbox(
+                              value: false,
+                              onChanged: (value) {},
+                              activeColor: const Color(
+                                0xFF20B879,
+                              ), // tick hone par background
+                              checkColor: Colors.white, // white ✓
+                              side: const BorderSide(
+                                color: Color(0xFF9CA3AF), // unchecked border
+                                width: 2,
                               ),
-                              const SizedBox(height: 3,),
-                              Text(
-                                "30 Minutes workout",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w500,
-                                  color: Colors.grey,
-                                ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(6),
                               ),
-                              Row(
-                                children: [
-                                  Icon(
-                                    Icons.access_time,
-                                    size: 14,
+                            ),
+                            const SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Morning Experiance",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  "30 Minutes workout",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.grey,
                                   ),
-                                  const SizedBox(width: 5),
-                                  Text(
-                                    "7 :00 AM - 7 :30 AM",
-                                    style: TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w500,
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.access_time,
+                                      size: 14,
                                       color: Colors.grey,
                                     ),
-                                  ),
-                                ],
-                              ),
-
-                            ],
-                          ),
-                          Spacer(
-                            flex: 1,
-                          ),
-                          Icon(
-                            Icons.laptop,
-                            color: Colors.blue,
-                          ),
-                        ],
+                                    const SizedBox(width: 5),
+                                    Text(
+                                      "7 :00 AM - 7 :30 AM",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                            Spacer(flex: 1),
+                            Icon(Icons.laptop, color: Colors.blue),
+                          ],
+                        ),
                       ),
-
                     ),
                   ),
                 ],
@@ -483,75 +475,71 @@ class HomeScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
                       ),
-                      child: Row(
-                        children: [
-                          Checkbox(
-                            value: false,
-                            onChanged: (value) {},
-                            activeColor: const Color(
-                              0xFF20B879,
-                            ), // tick hone par background
-                            checkColor: Colors.white, // white ✓
-                            side: const BorderSide(
-                              color: Color(0xFF9CA3AF), // unchecked border
-                              width: 2,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                          ),
-                          const SizedBox(width: 10),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Read DSA",
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black,
-                                ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            Checkbox(
+                              value: false,
+                              onChanged: (value) {},
+                              activeColor: const Color(
+                                0xFF20B879,
+                              ), // tick hone par background
+                              checkColor: Colors.white, // white ✓
+                              side: const BorderSide(
+                                color: Color(0xFF9CA3AF), // unchecked border
+                                width: 2,
                               ),
-                              const SizedBox(height: 3,),
-                              Text(
-                                "Arrays Practice",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w500,
-                                  color: Colors.grey,
-                                ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(6),
                               ),
-                              Row(
-                                children: [
-                                  Icon(
-                                    Icons.access_time,
-                                    size: 14,
+                            ),
+                            const SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Read DSA",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  "Arrays Practice",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.grey,
                                   ),
-                                  const SizedBox(width: 5),
-                                  Text(
-                                    "4 :00 PM - 5 :00 PM",
-                                    style: TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w500,
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.access_time,
+                                      size: 14,
                                       color: Colors.grey,
                                     ),
-                                  ),
-                                ],
-                              ),
-
-                            ],
-                          ),
-                          Spacer(
-                            flex: 1,
-                          ),
-                          Icon(
-                            Icons.menu_book_sharp,
-                            color: Colors.blue,
-                          ),
-                        ],
+                                    const SizedBox(width: 5),
+                                    Text(
+                                      "4 :00 PM - 5 :00 PM",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                            Spacer(flex: 1),
+                            Icon(Icons.menu_book_sharp, color: Colors.blue),
+                          ],
+                        ),
                       ),
-
                     ),
                   ),
                 ],
@@ -566,75 +554,71 @@ class HomeScreen extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
                       ),
-                      child: Row(
-                        children: [
-                          Checkbox(
-                            value: false,
-                            onChanged: (value) {},
-                            activeColor: const Color(
-                              0xFF20B879,
-                            ), // tick hone par background
-                            checkColor: Colors.white, // white ✓
-                            side: const BorderSide(
-                              color: Color(0xFF9CA3AF), // unchecked border
-                              width: 2,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                          ),
-                          const SizedBox(width: 10),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Project Planning",
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black,
-                                ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          children: [
+                            Checkbox(
+                              value: false,
+                              onChanged: (value) {},
+                              activeColor: const Color(
+                                0xFF20B879,
+                              ), // tick hone par background
+                              checkColor: Colors.white, // white ✓
+                              side: const BorderSide(
+                                color: Color(0xFF9CA3AF), // unchecked border
+                                width: 2,
                               ),
-                              const SizedBox(height: 3,),
-                              Text(
-                                "Plan weatherly app features",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w500,
-                                  color: Colors.grey,
-                                ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(6),
                               ),
-                              Row(
-                                children: [
-                                  Icon(
-                                    Icons.access_time,
-                                    size: 14,
+                            ),
+                            const SizedBox(width: 10),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Project Planning",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  "Plan weatherly app features",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w500,
                                     color: Colors.grey,
                                   ),
-                                  const SizedBox(width: 5),
-                                  Text(
-                                    "8 :00 PM - 9 :00 PM",
-                                    style: TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w500,
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(
+                                      Icons.access_time,
+                                      size: 14,
                                       color: Colors.grey,
                                     ),
-                                  ),
-                                ],
-                              ),
-
-                            ],
-                          ),
-                          Spacer(
-                            flex: 1,
-                          ),
-                          Icon(
-                            Icons.laptop,
-                            color: Colors.blue,
-                          ),
-                        ],
+                                    const SizedBox(width: 5),
+                                    Text(
+                                      "8 :00 PM - 9 :00 PM",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w500,
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                            Spacer(flex: 1),
+                            Icon(Icons.laptop, color: Colors.blue),
+                          ],
+                        ),
                       ),
-
                     ),
                   ),
                 ],
@@ -642,6 +626,38 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+            backgroundColor: Colors.blue,
+          ),
+
+          BottomNavigationBarItem(
+            icon: Icon(Icons.card_giftcard),
+            label: 'Cards',
+            backgroundColor: Colors.white,
+          ),
+
+          BottomNavigationBarItem(
+            icon: Icon(Icons.add),
+            label: 'Search',
+            backgroundColor: Colors.blue,
+          ),
+
+          BottomNavigationBarItem(
+            icon: Icon(Icons.analytics_outlined),
+            label: 'analysis',
+            backgroundColor: Colors.white,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'Profile',
+            backgroundColor: Colors.white,
+          ),
+        ],
       ),
     );
   }
