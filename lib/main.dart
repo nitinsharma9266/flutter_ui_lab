@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'first_Screen/home/home_screen.dart';
+// import 'first_Screen/home/home_screen.dart';
 // import 'second_Screen/home/home_screen.dart';
+import 'Third_screen/login_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Practice Screen",
       home: Scaffold(
-        body: const HomeScreen(),
+        body: const LoginScreen(),
       ),
     );
   }
